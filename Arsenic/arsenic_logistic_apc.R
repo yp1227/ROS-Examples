@@ -23,6 +23,7 @@ knitr::opts_chunk$set(message=FALSE, error=FALSE, warning=FALSE, comment=NA)
 #' #### Load packages
 library("rprojroot")
 root<-has_file(".ROS-Examples-root")$make_fix_file()
+library("Rcpp")
 library("rstanarm")
 library("loo")
 invlogit <- plogis
